@@ -55,7 +55,7 @@ class Watermark extends PictureEffect
 
         $this->watermark = realpath($watermark);
         $this->position = $position;
-        $this->space = $space;
+        $this->space = (int) $space;
         $this->opacity = $opacity;
         $this->size = $size;
     }

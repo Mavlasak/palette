@@ -34,7 +34,7 @@ class Brightness extends PictureEffect
      */
     public function __construct($brightness)
     {
-        $this->brightness = $brightness;
+        $this->brightness = (int) $brightness;
     }
 
 
